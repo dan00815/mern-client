@@ -8,7 +8,7 @@ const HomeComponent = () => {
   };
   const courseTeach = () => {
     alert(
-      "這是一個MERN專案，使用者可以註冊本地帳戶並登入系統\n作為講師的你可以自由開設喜歡的課程\n作為學生的你可以搜尋有興趣的課程並註冊"
+      "這是一個MERN專案(可以不用理這行)\n\n你可以自由扮演講師與學生，註冊帳戶並登入系統\n作為講師的你可以自由開設喜歡的課程\n作為學生的你可以搜尋有興趣的課程並註冊"
     );
   };
 
@@ -37,7 +37,7 @@ const HomeComponent = () => {
                 style={{ margin: "15px" }}
                 onClick={handleTeach}
               >
-                看看它怎麼運作。
+                看看這怎麼運作。
               </button>
               <button
                 className="btn btn-primary btn-lg"
