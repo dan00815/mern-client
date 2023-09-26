@@ -1,0 +1,39 @@
+nav {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+nav .nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav .nav-ul .nav-li {
+  padding: 1rem;
+}
+nav .nav-ul .nav-li .nav-a {
+  color: rgba(6, 6, 207, 0.8);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+nav .nav-ul .nav-li .nav-a:hover {
+  color: #00dddd;
+  border-bottom: 2.5px solid #00dddd;
+}
+
+@media screen and (max-width: 600px) {
+  nav .nav-ul {
+    flex-direction: column;
+    padding: 0px;
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 100%;
+  }
+  nav .nav-ul .nav-li {
+    padding: 5px;
+  }
+  nav .nav-ul .nav-li .nav-a {
+    font-size: 0.75rem;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -12,7 +12,7 @@ const CourseComponent = ({ currentUser, setCurrentUser }) => {
   const handleToOut = (e) => {
     CourseService.enrollOut(e.target.id)
       .then(() => {
-        alert("退選成功，請重整課程頁面");
+        alert("退選成功");
         navigate("/profile");
       })
       .catch((e) => {

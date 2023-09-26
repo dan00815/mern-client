@@ -9,6 +9,7 @@ import CourseComponent from "./components/course-component";
 import PostCourseComponent from "./components/course-post-component";
 import EnrollComponent from "./components/enroll-component";
 import AuthService from "./services/auth.service";
+import "./style/style.css";
 
 function App() {
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
